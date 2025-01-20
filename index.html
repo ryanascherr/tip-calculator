@@ -8,7 +8,44 @@
 </head>
 <body>
 
-    <p>Hello world!</p>
+    <div class="calculator">
+
+        <div class="bill-container">
+            <h2 class="bill-container__heading">Bill Amount</h1>
+
+            <div class="bill-container__input input">
+                <span class="input__outer">$<input class="input__inner" type="text" id="bill_amount" name="bill_amount" placeholder="50.00"></span>
+            </div>
+
+            <div class="bill_container__tip-info">
+                <p>Tip amount: </p>
+                <p>Total with tip:</p>
+            </div>
+        </div>
+
+        <div class="tip-container">
+            <h2 class="tip-container__heading">Tip Amount</h2>
+            <div class="tip-container__buttons">
+                <button class="button button--selected">10%</button>
+                <button class="button">15%</button>
+                <button class="button">20%</button>
+            </div>
+        </div>
+
+        <div class="people-container">
+            <h2 class="people-container__heading">
+                How many people are paying?
+            </h2>
+            <div class="people-container__buttons">
+                <div class="button button--round"></div>
+                <div class="button button--round"></div>
+                <div class="button button--round"></div>
+                <div class="button button--round"></div>
+                <div class="button button--round"></div>
+                <div class="button button--round"></div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./script.js"></script> 

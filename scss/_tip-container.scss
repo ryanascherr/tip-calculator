@@ -1,0 +1,12 @@
+.tip-container {
+    
+    &__heading {
+        text-align: center;
+    }
+
+    &__buttons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+}

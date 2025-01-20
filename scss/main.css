@@ -1,5 +1,44 @@
-p {
-  color: blue;
+.bill-container__heading {
+  text-align: center;
+}
+
+.button {
+  padding: 1rem 2rem;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button--selected {
+  background-color: lightblue;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 3rem;
+  margin: 1rem;
+}
+
+.input__outer {
+  border: 2px solid black;
+}
+.input__inner {
+  border: none;
+}
+
+.tip-container__heading {
+  text-align: center;
+}
+.tip-container__buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
 }
 
 * {
